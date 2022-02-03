@@ -1,0 +1,13 @@
+.container1 {
+    position:relative;
+    width: 1000px;
+    margin: auto;
+    background-color: #8e80e7;
+}
+.container1 canvas,
+.center {
+    position:absolute;
+    top:50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
