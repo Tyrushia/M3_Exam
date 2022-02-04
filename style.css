@@ -13,7 +13,13 @@
 }
 .container2 {
     height: 175px;
-    padding: 20px;
+    padding: 30px;
+}
+.container3 {
+    max-height: 100px;
+    padding: 15px;
+    background-color: white;
+    justify-content: center;
 }
 .column2 {
     height: 100vh;
@@ -21,9 +27,8 @@
     border-radius: 2ch;
 }
 .column3 {
-    
     margin: auto;
-    height: 10%;
+    height: 20%;
 }
 .row:after{
     content: "";
@@ -40,12 +45,12 @@
 button{
         width: auto;
         height: 40px;
-        padding: 7px;
+        padding: 10px;
         outline: none;
         cursor: pointer;
-        margin: 11px 5%;
-        justify-content: center;
-        position: absolute;
+        margin: 50px 5%;
+        justify-content:left;
+        
 }
 
 .headertekst{
