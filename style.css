@@ -1,8 +1,8 @@
 .container1 {
     position:relative;
-    width: 1000px;
+    width: 600px;
     margin: auto;
-    background-color: #8e80e7;
+    background-color: #F08080;
 }
 .container1 canvas,
 .center {
@@ -11,3 +11,38 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.column2 {
+    height: 100vh;
+    margin: auto;
+    border-radius: 2ch;
+}
+.column3 {
+    
+    margin: auto;
+    height: 10%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.wrapper{
+    width: 350px;
+    background: rgb(232, 232, 238);
+    border-radius: 15px;
+    margin: 30px auto;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+button{
+        width: auto;
+        height: 40px;
+        padding: 7px;
+        outline: none;
+        cursor: pointer;
+        margin: 11px 5%;
+        justify-content: center;
+}
+
+.headertekst{
+    text-align: center;
+  }
